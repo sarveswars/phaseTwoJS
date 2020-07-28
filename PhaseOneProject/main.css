@@ -1,0 +1,41 @@
+/*CSS document*/
+
+body{
+  background-color: yellow;
+}
+
+h1{
+  background-color: red;
+  text-align: center;
+}
+
+input{
+  margin-left : 300px;
+  background-color: yellow;
+  height: 30px;
+  width: 300px;
+  font-size: 20px;
+}
+
+#button{
+  margin-left + width: 50px;
+  margin-right: auto;
+  background-color: lightgreen;
+  height: 30px;
+  color: green;
+}
+
+button{
+  background-color: red;
+  margin-left: 100px;
+  height: 25px;
+  color: lightgreen;
+}
+li{
+  margin-left: 200px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+#checkbox{
+margin-left: 1px;
+}

@@ -1,0 +1,22 @@
+{
+      "dailyWorks":  [
+
+            {
+              "work": "exercising",
+              "time": "1 hour",
+              "image": "imgq.jpg"
+            },
+            {
+              "work": "studying",
+              "time": "4 hours",
+              "image": "imgw.jpg"
+            },
+            {
+              "work": "gaming",
+              "time": "3 hours",
+              "image": "imge.jpg"
+            }
+
+      ]
+
+}

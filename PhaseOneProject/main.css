@@ -39,3 +39,7 @@ li{
 #checkbox{
 margin-left: 1px;
 }
+#map{
+  height : 400px;
+  width : 500px;
+}

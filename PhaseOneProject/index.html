@@ -2,18 +2,23 @@
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <title>To-Do-List</title>
     <link rel="stylesheet" href="main.css">
-    <script src="main.js"></script>
-    <script src="xhr.js"></script>
+    <script src="main.js" defer></script>
+    <script src="xhr.js" defer></script>
+    <script src="geoLocation.js" defer></script>
+    <script async defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFyUmNN6d_yUzdouXE7KzAUAlFnLTsq3Q&callback=initMap"></script>
+    <script src="thirdParty.js" defer></script>
   </head>
+
   <body>
     <main class="container">
 
     <section>
-      <h2>Activities to do today</h2>
+      <h1>Activities to do today</h1>
       <form>
         <input type = "text" id = "text" placeholder = "Enter an activity to do today" >
         <button type = "button" id = "button" onclick = "addActivity()">Click me</button>
@@ -21,11 +26,19 @@
       <ul id = "activityList"></ul>
     </section>
 
-    <section>
-      <h2>Daily to do work</h2>
+    <section id="schedule">
+      <h1>Daily to do work</h1>
     </section>
 
-    
+    <section>
+      <h1>Places to visit</h1>
+      <button id="myLocation"> Check the places to visit </button>
+      <p id="location"></p>
+      <a id="mapLink" target="_blank"></a>
+      <div id="map"></div>
+    </section>
+
+    <h2>Thanks for viewing the website</h2>
 
     </main>
   </body>
